@@ -387,6 +387,7 @@ class ComposerStaticInitb318175884a8abefd8e8904f8277eaf2
     );
 
     public static $classMap = array (
+        'App\\Ciudad' => __DIR__ . '/../..' . '/app/Ciudad.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -396,6 +397,8 @@ class ComposerStaticInitb318175884a8abefd8e8904f8277eaf2
         'App\\Http\\Controllers\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/VerificationController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\NotaController' => __DIR__ . '/../..' . '/app/Http/Controllers/NotaController.php',
+        'App\\Http\\Controllers\\PaisController' => __DIR__ . '/../..' . '/app/Http/Controllers/PaisController.php',
+        'App\\Http\\Controllers\\RoupasController' => __DIR__ . '/../..' . '/app/Http/Controllers/RoupasController.php',
         'App\\Http\\Controllers\\TamanhoController' => __DIR__ . '/../..' . '/app/Http/Controllers/TamanhoController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',
@@ -406,6 +409,7 @@ class ComposerStaticInitb318175884a8abefd8e8904f8277eaf2
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Nota' => __DIR__ . '/../..' . '/app/Nota.php',
+        'App\\Pais' => __DIR__ . '/../..' . '/app/Pais.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',

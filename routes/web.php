@@ -36,4 +36,9 @@ Route::post('/agregartamanhos', 'TamanhoController@store')->name('storeTamanho')
 Route::get('/roupas', 'RoupasController@index')->name('roupas');
 Route::post('/agregarroupas', 'RoupasController@store')->name('storeRoupa');
 
+/** Pais e Ciudad */
+
+Route::get('/pais', 'PaisController@index')->name('pais'); // localhost:8000/
+Route::get('/getCiudad/{id}', 'PaisController@getCiudades')->name('getCiudad');
+
 

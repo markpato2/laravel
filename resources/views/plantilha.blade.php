@@ -8,6 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   @yield('scriptsJs')
+
+
     <title>Laravel</title>
 </head>
 <body>
@@ -22,7 +26,7 @@
         <a class="nav-link" href="{{route('roupas')}}">Roupas</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-item" href="{{route('pais')}}" >Pais</a>
     </li>
 </ul>
 
